@@ -13,3 +13,18 @@ To ensure transparency, this repository includes:
 
 The project follows Alibaba Cloud best practices and can be deployed instantly
 in any supported region.
+# Alibaba Cloud OSS Setup
+
+This document explains how the project assets are intended to be deployed
+using Alibaba Cloud Object Storage Service (OSS).
+
+Steps:
+1. Create OSS bucket
+2. Enable public read access
+3. Upload frontend assets
+4. Serve static content via OSS public URL
+
+Due to the absence of an India region on Alibaba Cloud, live deployment
+was not feasible at submission time. The project repository contains
+deployment-ready configuration, architecture, and documentation for
+Alibaba Cloud services.
